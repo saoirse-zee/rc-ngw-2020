@@ -33,6 +33,6 @@ I also want to leave space for the serendipitous crossing of paths with other Re
 
 - Trying out Conrod, a UI library for Rust. 
   - Hit an issue running the examples, but figured it out pretty quickly (thanks to nice error messages!). Reported the issue [here](https://github.com/PistonDevelopers/conrod/issues/1345).
-
+  - I played around with modifying the examples for a bit. Just doing trivial things like changing colors and font size. This is a pretty involved library, but the docs look nice. I think I'll return to this in a day or so, after I have a little more Rust under my fingers.
 
 
