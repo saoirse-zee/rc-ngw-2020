@@ -28,4 +28,10 @@ I also want to leave space for the serendipitous crossing of paths with other Re
   ```
 - What is the difference between `str` and `&str`?
   - See the docs on [dynamically sized types](https://doc.rust-lang.org/book/ch19-04-advanced-types.html#dynamically-sized-types-and-the-sized-trait)
+  
+- Tried out the Amethyst 2D Starter. It failed on an error I don't understand. It seems to be a platform compatibility issue 🤷🏻‍♀️? I opened [an issue](https://github.com/amethyst/amethyst-starter-2d/issues/18). It seems that others have had similar issues recently, so I hope my issue is more helpful than annoying.
+
+
+
+
 
