@@ -31,7 +31,8 @@ I also want to leave space for the serendipitous crossing of paths with other Re
   
 - Tried out the Amethyst 2D Starter. It failed on an error I don't understand. It seems to be a platform compatibility issue 🤷🏻‍♀️? I opened [an issue](https://github.com/amethyst/amethyst-starter-2d/issues/18). It seems that others have had similar issues recently, so I hope my issue is more helpful than annoying.
 
-
+- Trying out Conrod, a UI library for Rust. 
+  - Hit an issue running the examples, but figured it out pretty quickly (thanks to nice error messages!). Reported the issue [here](https://github.com/PistonDevelopers/conrod/issues/1345).
 
 
 
