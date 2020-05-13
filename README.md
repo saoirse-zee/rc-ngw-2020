@@ -80,3 +80,9 @@ Only one thing gets to write to memory at once!
 - Still don't get "named lifetimes".  
 - A wonderful presentation on Web Standards!
 - Went to a talk on [APL](https://tryapl.org/#), which I know nothing about. Wild stuff!
+- Working through [creating a CLI in Rust](https://doc.rust-lang.org/book/ch12-00-an-io-project.html)
+  - Types in Rust
+    - "we very rarely need to annotate types in Rust"
+  - the debug formatter: `:?`
+  - "Using primitive values when a complex type would be more appropriate is an anti-pattern known as primitive obsession." Lol, never heard this before.
+  - Contructors for custom types are cool!
