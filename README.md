@@ -78,4 +78,5 @@ Only one thing gets to write to memory at once!
         };
   ```
 - Still don't get "named lifetimes".  
-  
+- A wonderful presentation on Web Standards!
+- Went to a talk on [APL](https://tryapl.org/#), which I know nothing about. Wild stuff!
