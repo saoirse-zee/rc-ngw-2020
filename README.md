@@ -35,4 +35,35 @@ I also want to leave space for the serendipitous crossing of paths with other Re
   - Hit an issue running the examples, but figured it out pretty quickly (thanks to nice error messages!). Reported the issue [here](https://github.com/PistonDevelopers/conrod/issues/1345).
   - I played around with modifying the examples for a bit. Just doing trivial things like changing colors and font size. This is a pretty involved library, but the docs look nice. I think I'll return to this in a day or so, after I have a little more Rust under my fingers.
 
+### Ownership in Rust
+I encountered this sentence in the Rust Book: "Rust's central feature is ownership."
 
+There are three ways to deal with memory:
+1) Garbage collector - In Javascript this happens behind the scenes(?)
+2) Manually - As in C
+3) Ownership - Rust does this.
+
+Question: What other languages use ownership? Is Rust totally unique? There must be some prior art, even if academic or obscure. Wondering...
+
+Your data is on the STACK or the HEAP. In Rust, you have to think about this, because things behave differently depending. 
+
+```
+String literal        =/=       String type
+--------------                  -----------
+on the stack                    on the heap
+cannot be mutatated             memory requested at runtime
+memory allocation
+  known at compile time
+```
+
+`drop` is called (by Rust) when memory goes out of scope.
+
+"Double free error" --> BAD!
+These are prevented by Rust `drop`ping data that no longer needs to be kept around. One of the reasons they say Rust is memory-safe.
+
+The ampersand!
+The `&` gives reference to the value without taking ownership. Now I have my answer to the question from the beginning of the day :)
+
+Rust prevents data races. 
+Mutation is allowed, but very closely controlled.
+Only one thing gets to write to memory at once!
