@@ -67,3 +67,15 @@ The `&` gives reference to the value without taking ownership. Now I have my ans
 Rust prevents data races. 
 Mutation is allowed, but very closely controlled.
 Only one thing gets to write to memory at once!
+
+## Wednesday May 13
+- Learning structs in Rust.
+- The "update syntax" in Rust is just like the object spread operator in Javascript. Which is by far my favorite operator! ✨
+- ```
+        let newThing = Thing {
+            name: String::from("So new, this thing!"),
+            ..old_thing
+        };
+  ```
+- Still don't get "named lifetimes".  
+  
