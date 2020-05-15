@@ -97,3 +97,6 @@ Only one thing gets to write to memory at once!
   - [Codio](https://github.com/wix-incubator/codio): A media format for developers
   - Fuzzy search and the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
   - A Procedural painter in Racket
+
+## Back to Rust
+- I love that Rust has [Guidelines for Error Handling](https://doc.rust-lang.org/book/ch09-03-to-panic-or-not-to-panic.html#guidelines-for-error-handling)
