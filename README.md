@@ -86,3 +86,6 @@ Only one thing gets to write to memory at once!
   - the debug formatter: `:?`
   - "Using primitive values when a complex type would be more appropriate is an anti-pattern known as primitive obsession." Lol, never heard this before.
   - Contructors for custom types are cool!
+
+## Thursday May 14
+- Went to the beach! And didn't see a single computer all day. Biked there, to Reis Beach, laid out a blanket, ate some pasta, cuddled with my sweetie. It got cold once the wind whipped up and the sun went behind the clouds.
