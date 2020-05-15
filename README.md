@@ -92,6 +92,8 @@ Only one thing gets to write to memory at once!
 
 ## Friday May 15
 - Presentations!
-  - Ashley Blewer	Throttled, network-based performance...art
-  - Stephen Tu	Derivative free optimization
-  
+  - Throttled, network-based performance...art
+  - Derivative free optimization
+  - [Codio](https://github.com/wix-incubator/codio): A media format for developers
+  - Fuzzy search and the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
+  - A Procedural painter in Racket
