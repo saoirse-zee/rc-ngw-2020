@@ -89,3 +89,9 @@ Only one thing gets to write to memory at once!
 
 ## Thursday May 14
 - Went to the beach! And didn't see a single computer all day. Biked there, to Reis Beach, laid out a blanket, ate some pasta, cuddled with my sweetie. It got cold once the wind whipped up and the sun went behind the clouds.
+
+## Friday May 15
+- Presentations!
+  - Ashley Blewer	Throttled, network-based performance...art
+  - Stephen Tu	Derivative free optimization
+  
